@@ -1,0 +1,27 @@
+Task 1 - Readme: (https://www.youtube.com/watch?v=-l83oqcaTHg)
+	1. Create sample html file 
+		{
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Simple HTML Example</title>
+		</head>
+		<body>
+			<h1>Welcome to My Simple Website</h1>
+			<p>This is a very basic HTML file.</p>
+			<p>Feel free to modify it as you like!</p>
+		</body>
+		</html>
+		}
+	2. Go and create new bucket through S3 
+		1. Choose a unique name 
+		2. Choose region 
+		3. Create the bucket
+	3. Upload the files related to the sample website that you created 
+	4. We should enable the static website hosting from properties section and add our sample file in the index document section
+	5. We should make the bucket accessible from permissions section
+	6. We should make the objects public so from permissions section we will edit object ownership 
+	7. After enabling it we will make all the objects and make them public from action menu
+	
